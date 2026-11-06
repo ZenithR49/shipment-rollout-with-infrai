@@ -1,0 +1,12 @@
+{
+  "name": "shipment-rollout-with-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/shipment_service.ts",
+    "test": "node --experimental-strip-types src/shipment_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.10.1", "typescript": "^5.6.3" }
+}
